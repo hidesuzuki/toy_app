@@ -9,7 +9,7 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.2'
 # Use Puma as the app server
-gem 'puma', '~> 3.12'
+gem 'puma', '~> 4.3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 6.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -22,7 +22,7 @@ gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.5'
+gem 'jbuilder', '~> 2.9'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
@@ -51,7 +51,7 @@ group :development do
 end
 
 group :production do
-  gem 'pg', '0.20.0'
+  gem 'pg', '1.2.2'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
