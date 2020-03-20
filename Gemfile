@@ -27,6 +27,7 @@ gem 'jbuilder', '~> 2.10'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+gem "actionview", ">= 6.0.2.2"
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
